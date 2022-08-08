@@ -1,0 +1,8 @@
+<view  class="soogRecm" style="background-color: {{bgColor}};">
+      <view class="header">{{title}}</view>
+      <view class="Con">
+            <view class="recommend">{{nav}}</view>
+            <!-- <view class="more" bindtap="btnClick">查看更多></view> -->
+            <navigator url="{{url}}?key={{classtify}}" class="nav" >查看附近></navigator>
+      </view>
+</view>

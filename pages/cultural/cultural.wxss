@@ -1,0 +1,48 @@
+.fuji{
+    margin-top: 15rpx;
+    margin-left: 15rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    width: 220rpx;
+    border: 1rpx solid rgb(150, 150, 147);
+    background-color: rgb(131, 185, 145);
+    border-radius: 15rpx;
+    text-align: center;
+}
+/* 列表样式 */
+.Box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cultural{
+    width: 350rpx;
+    margin: 10rpx 7rpx;
+    padding: 5rpx;
+    display: flex;
+    flex-direction: column;
+    border: 1rpx solid rgb(177, 177, 173);
+    border-radius:20rpx;
+    box-shadow: 4px 4px 3px #888888;
+}
+/* 书店名 */
+.header{
+    height: 50rpx;
+    width: 300rpx;
+    text-align: center;
+}
+/* 书店照片 */
+.shudian-imag{
+    height: 237rpx;
+    width: 350rpx;
+}
+.opera-box{
+    height: 100rpx;
+    width: 175rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opera-box image{
+    width: 50rpx;
+    height: 50rpx;
+}

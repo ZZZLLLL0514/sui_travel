@@ -1,0 +1,16 @@
+<view class="intro_container">
+<view class="city-title">
+<view style="color: rgb(88, 88, 86);font-size: 40rpx;" >{{tile_CHN}}</view>
+<view style="font-size: 22rpx;color: rgb(168, 167, 165);">{{tile_ENG}}</view>
+</view>
+<view  class="text">
+<view style="white-space: pre-wrap;">
+   <text> {{route_text}}</text>
+
+  {{content}}
+</view>
+    <view style="color: rgb(88, 88, 86);font-size: 30rpx;margin: 10rpx;" >{{route_tile}}</view>
+<map class="polyline-map" longitude="{{longitude}}" latitude="{{latitude}}" polyline="{{polyline}}" scale="{{scale}}" markers="{{markers}}"></map>
+</view>
+
+</view>

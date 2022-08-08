@@ -1,0 +1,50 @@
+<view class="container">
+<!-- 轮播图 -->
+<swiper class="banners" indicator-dots indicator-active-color="red" indicator-color="white" autoplay interval="2000">
+    <swiper-item wx:for="{{banners}}">
+        <image class="banners-img" src="{{item}}"></image>
+    </swiper-item>
+</swiper>
+<!-- 地点搜索框 -->
+<view class="search_box">
+
+<input type="text" placeholder="搜索周边地点" bindinput="handleInput"/>
+<!-- <button class="qju_search" type="primary" size="mini">全局搜索</button> -->
+<navigator url="/pages/zhoubian/zhoubian?key={{searchKey}}" class="search">周边搜索</navigator>
+<navigator  bindtap="search" class="search">全市搜索</navigator>
+
+</view>
+<!-- 中间区域 -->
+<view class="mid-box">
+<view class="base">
+    <view bindtap="toGZH" class="summary">
+        <text class="iconfont icon-guangzhou"></text>
+        <text>广州概况</text>
+    </view>
+    <view bindtap="toGL" class="tour">
+        <text class="iconfont icon-lvyou"></text>
+        <text>游玩攻略</text>
+    </view>
+</view>
+</view>
+
+<!-- 景区推荐 -->
+<hearderNar classtify="景点" class="hearderNar" nav="给你精心挑选" title="景区推荐" url="/pages/zhoubian/zhoubian" ></hearderNar>
+<scroll-view class="recommendScroll" enable-flex scroll-x>
+    <navigator url="/pages/Map/Map?key={{recommendItem.mapName}}" class="scrollItem" wx:for="{{recommendList}}" wx:key="id" wx:for-item="recommendItem" data-index="{{index}}" bindtap="jiushi">
+        <image src="{{recommendItem.picUrl}}"></image>
+        <text>{{recommendItem.name}}</text>>
+    </navigator>
+    </scroll-view>
+    <!-- 美食推荐 -->
+<hearderNar classtify="美食" class="hearderNar" nav="美食推荐" title="吃货专区" url="/pages/zhoubian/zhoubian" ></hearderNar>
+<scroll-view class="recommendScroll" enable-flex scroll-x>
+      <!-- <view class="scrollItem" wx:for="{{cateList}}" wx:key="id" wx:for-item="cateItem"> -->
+        <navigator url="/pages/Map/Map?key={{cateItem.mapUrl}}" class="scrollItem" wx:for="{{cateList}}" wx:key="id" wx:for-item="cateItem"> 
+        <image src="{{cateItem.picUrl}}"></image>
+        <text>{{cateItem.name}}</text>
+        </navigator>
+    </scroll-view>
+</view>
+
+

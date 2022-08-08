@@ -1,0 +1,10 @@
+<scroll-view class="recommendScroll" enable-flex scroll-y>
+    <navigator url="/pages/Map/Map?key={{recommendItem.mapName}}" class="scrollItem" wx:for="{{recommendList}}" wx:key="id" wx:for-item="recommendItem" data-index="{{index}}" bindtap="jiushi">
+        <image src="{{recommendItem.picUrl}}"></image>
+        <view class="intro-box">
+        <text class="tile">{{recommendItem.name}}</text>
+        <text class="intro">“{{recommendItem.intro}}”</text>
+        <view wx:if="{{recommendItem.jibie}}" class="jibie">{{recommendItem.jibie}}</view>
+    </view>
+    </navigator>
+    </scroll-view>

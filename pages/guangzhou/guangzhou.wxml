@@ -1,0 +1,19 @@
+<image class="guangzhou" src="/static/guangzhou/wuyan.png"></image>
+<view class="intro_container">
+<view class="city-title">
+<view style="color: rgb(88, 88, 86);font-size: 40rpx;" >城 市 简 介</view>
+<view style="font-size: 22rpx;color: rgb(168, 167, 165);">I n t r o d u c t i o n</view>
+</view>
+<view style="white-space: pre-wrap;" class="text">
+广州市为中国大陆和广东对外的商贸中心兼综合交通枢纽，是中国大陆的一线城市之一，也是粵港澳大湾区的中心城市之一，中国解放军南部战区联合指挥部亦驻扎该地。
+    
+广州拥有2200年以上的建城史，是岭南文化的发源地和兴盛地，1982年被列为中国首批国家历史文化名城之一。广州从秦朝开始一直是郡治、州治、府治的行政中心和华南地区的政治、军事、经济、文化及科教中心，也是近代中国革命的策源地和现代文明的重要摇篮。广州于1921年建立市政厅机构，开创了中国大陆的市政建制。
+
+广州是国际花园城市、中国优秀旅游城市和中国历史文化名城。广州现有长隆旅游度假区和广州市白云山风景区2个国家5A级旅游景区，广州塔、北京路文化旅游区、中山纪念堂、南越王博物馆、广州动物园、黄花岗公园、越秀公园、广州烈士陵园、陈家祠、正佳广场、华南植物园等24个国家4A级旅游景区。“羊城八景”是指广州历代列出的8个旅游景点，不同历史时期的“羊城八景”并不一致。2011年，羊城晚报报业集团组织评选的“羊城新八景”为：塔耀新城、珠水流光、云山叠翠、越秀风华、古祠流芳、荔湾胜境、科城绵绣、湿地唱晚。
+</view>
+<view class="city-title">
+<view style="color: rgb(88, 88, 86);font-size: 38rpx;" >地 理 位 置</view>
+<view style="font-size: 26rpx;color: rgb(168, 167, 165);">P o s i t i o n</view>
+</view>
+<map class="indoor-map" longitude="113.359109" latitude="23.154566" scale="10" enable-poi></map>
+</view>

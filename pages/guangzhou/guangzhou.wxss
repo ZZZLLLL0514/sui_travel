@@ -1,0 +1,35 @@
+/* 顶部图片 */
+.guangzhou{
+    width: 740rpx;
+    height: 420rpx;
+    margin-left: 5rpx;
+}
+/* 介绍主体容器 */
+.intro_container{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10rpx;
+margin-bottom: 20rpx;
+}
+.city-title{
+height: 85rpx;
+width: 700rpx;
+}
+.city-title view{
+    margin-left:20rpx ;
+}
+.text{
+    width: 710rpx;
+    border: 1rpx solid rgb(182, 182, 178);
+    box-shadow:0rpx 0rpx 8rpx rgb(190, 190, 189) ;
+    padding:12rpx 20rpx;
+    box-sizing: border-box;
+    margin-top: 15rpx;
+    border-radius: 15rpx;
+}
+/*地图组件样式 */
+.indoor-map{
+    width: 710rpx;
+    height: 350rpx;
+}

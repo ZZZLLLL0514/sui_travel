@@ -1,0 +1,24 @@
+<map class="indoor-map" longitude="{{mapInfo.longitude}}" latitude="{{mapInfo.latitude}}" markers="{{mapInfo.covers}}" scale="13" bindmarkertap="marker" enable-rotate></map>
+<!-- 具体地址显示 -->
+<scroll-view class="addrScrool" enable-flex scroll-y>
+<view wx:for="{{mapInfo.addrInfo}}" wx:for-item="addrItem" class="addrList">
+<text style="margin-left: 10rpx;">{{addrItem.addrName}}</text>
+<view class="addr">
+<view class="addr1">{{addrItem.addr}}</view>
+<view style="width: 210rpx;display: flex;">
+<view bindtap="toRoute" id='{{addrItem.name}}' class="opera-box" hover-class="opcity" hover-stay-time="150">
+              <image src="/static/maps/route.png" class="mini-img"></image>
+              <view class="text ">路线规划</view>
+</view>
+<view bindtap="toOpenLocation" id='{{addrItem.name}}' class="opera-box" hover-class="opcity" hover-stay-time="150">
+              <image src="/static/maps/go.png" class="mini-img"></image>
+              <view class="text ">到这里</view>
+</view>
+</view>
+</view>
+</view>
+</scroll-view>
+
+
+
+

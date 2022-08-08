@@ -1,0 +1,52 @@
+.recommendScroll {
+    width: 750rpx;
+
+}
+
+.scrollItem {
+    border: 1rpx solid rgb(194, 194, 186);
+    width: 710rpx;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    margin: 12rpx 12rpx;
+    padding: 6rpx 0rpx;
+    padding-left: 10rpx;
+    border-radius: 12rpx;
+    box-shadow: 4rpx 5rpx 6rpx rgb(184, 184, 181);
+}
+
+.scrollItem image {
+    width: 300rpx;
+    height: 200rpx;
+    border-radius: 15rpx;
+}
+
+.intro-box {
+    width: 436rpx;
+    height: 200rpx;
+    margin-left: 10rpx;
+    position: relative;
+}
+
+.tile {
+    font-size: 30rpx;
+}
+
+.intro {
+    display: block;
+    margin-top: 15rpx;
+    font-size: 25rpx;
+    color: #ffaa00;
+}
+
+.jibie {
+    position: absolute;
+    bottom: 2rpx;
+    height: 40rpx;
+    font-size: 26rpx;
+    border-radius: 8rpx;
+    border: 1rpx solid rgb(24, 200, 231);
+    background-color: rgb(191, 248, 250);
+    text-align: center;
+}

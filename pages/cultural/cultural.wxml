@@ -1,0 +1,29 @@
+<scroll-view scroll-x class="bg-green nav text-center">
+  <view class="cu-item {{0==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="0">
+    <text class="iconfont icon-shudian">书店</text> 
+  </view>
+  <view class="cu-item {{1==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="1">
+    <text class="iconfont icon-xianbowuguan"></text> 博物馆
+  </view>
+  <view class="cu-item {{2==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="2">
+    <text class="iconfont icon-baomingbeifen"></text> 大学
+  </view>
+</scroll-view>
+<navigator url="/pages/zhoubian/zhoubian?key={{searPOI}}" class="fuji">查看附近{{classtify}}></navigator>
+<!-- 场所列表 -->
+<view class="Box">
+<view class="cultural" wx:for="{{cultural}}" wx:for-item="culturalItem">
+<view class="header">{{culturalItem.name}}</view>
+<image class="shudian-imag" src="{{culturalItem.imagURL}}"></image>
+<view style="width: 350rpx;display: flex;height: 100rpx;">
+<view id="{{culturalItem.id}}" bindtap="toRoute" class="opera-box" hover-class="opcity" hover-stay-time="175">
+              <image src="/static/maps/ljgh.png" class="mini-img"></image>
+              <view class="text ">路线规划</view>
+</view>
+<view id="{{culturalItem.id}}" bindtap="toOpenLocation" class="opera-box" hover-class="opcity" hover-stay-time="150">
+              <image src="/static/maps/qj.png" class="mini-img"></image>
+              <view class="text ">前往</view>
+</view>
+</view>
+</view>
+</view>

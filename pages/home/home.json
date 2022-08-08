@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "hearderNar":"/Component/headerNar/headerNar"
+  },
+  "navigationBarTitleText": "首页"
+}

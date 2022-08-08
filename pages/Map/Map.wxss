@@ -1,0 +1,57 @@
+/* 地图区域 */
+.indoor-map{
+    position: relative;
+    top: 50rpx;
+    height:  500rpx;
+    width: 100%;
+}
+/* 入口或地点 */
+.addrScrool{
+    height: auto;
+    width: 100%;
+    margin-top: 60rpx;
+    font-size: 30rpx;
+}
+.addrList{
+width: 750rpx;
+height: auto;
+display: flex;
+flex-direction: column;
+border-bottom: 1rpx solid rgb(128, 125, 125);
+}
+.addrList text{
+display: block;
+width: 750rpx;
+height: 30rpx;
+color: rgb(194, 189, 189);
+}
+.addr{
+    width: 75orpx;
+    height: 100rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(87, 87, 84);
+}
+.addr1{
+    width: 80%;
+    height: 100rpx;
+    line-height: 100rpx;
+    font-size: 24rpx;
+    box-sizing:border-box ;
+    padding-left: 10rpx;
+}
+.opera-box {
+    text-align: center;
+  }
+  .mini-img {
+    width: 44rpx;
+    height: 44rpx;
+  }
+  
+  .text {
+    color: #333;
+    line-height: 30rpx;
+    font-size: 22rpx;
+    margin-right: 11rpx;
+  }

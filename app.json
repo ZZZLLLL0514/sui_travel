@@ -1,0 +1,63 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/cultural/cultural",
+        "pages/hots/hots",
+        
+        "pages/classtify/classtify",
+        "pages/Map/Map",
+        "pages/guangzhou/guangzhou",
+        "pages/gonglue/gonglue",
+        "pages/zhoubian/zhoubian"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "穗玩",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#2f2c28",
+        "backgroundColor": "#dadada",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "/static/images/home.png",
+                "selectedIconPath": "/static/images/home-active.png"
+            },
+            {
+                "pagePath": "pages/hots/hots",
+                "text": "热门景点",
+                "iconPath": "/static/images/hot.png",
+                "selectedIconPath": "/static/images/hot-active.png"
+            },
+            {
+                "pagePath": "pages/classtify/classtify",
+                "text": "分类",
+                "iconPath": "/static/images/classtify.png",
+                "selectedIconPath": "/static/images/classtify-active.png"
+            },
+            {
+                "pagePath": "pages/cultural/cultural",
+                "text": "文化绿洲",
+                "iconPath": "/static/images/cultural.png",
+                "selectedIconPath": "/static/images/cultural-active.png"
+            }
+        ]
+    },
+    "plugins": {
+        "routePlan": {
+          "version": "1.0.19",
+          "provider": "wx50b5593e81dd937a"
+        }
+      },
+      "permission": {
+        "scope.userLocation": {
+          "desc": "你的位置信息将用于小程序定位"
+        }
+      },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

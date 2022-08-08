@@ -1,0 +1,109 @@
+
+.container{
+    margin-bottom: 30rpx;
+}
+.banners{
+    width: 750rpx;
+    text-align: center;
+}
+.banners-img{
+    width: 700rpx;
+}
+.mid-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20rpx 0 20rpx 0;
+    width: 100%;
+}
+/* 搜索框样式 */
+.search_box{
+    margin:30rpx 15rpx;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    padding:0rpx 0rpx 0 30rpx ;
+    background-color: rgb(235, 235, 229);
+    border-radius: 35rpx;
+    height: 70rpx;
+}
+.search_box input{
+    height: 70rpx;
+    width: 430rpx;
+    background-color: rgb(235, 235, 229);
+}
+.search{
+    width: 130rpx;
+    display: block;
+    text-align: center;
+    line-height: 70rpx;
+    border-radius: 25rpx;
+    margin-left:20rpx ;
+    background-color: rgb(105, 224, 179);
+    font-size: 26rpx;
+}
+.qju_search{
+    width: 130rpx;
+    display: block;
+    text-align: center;
+    line-height: 70rpx;
+    border-radius: 25rpx;
+    background-color: rgb(105, 224, 179);
+    font-size: 22rpx;
+}
+.base{
+    width: 670rpx;
+    height: 300rpx;
+    border: 1rpx solid rgb(88, 87, 87);
+    border-radius: 30rpx;
+    box-shadow:4px 4px 3px rgba(160, 160, 157, 0.4);
+}
+.summary{
+    height: 160rpx;
+    width: 160rpx;
+    position: relative;
+    top: 70rpx;
+    left: 70rpx;
+}
+.summary .iconfont{
+    font-size: 100rpx;
+    display: block;
+    height: 110rpx;
+    width: 110rpx;
+} 
+.tour .iconfont{
+    font-size: 100rpx;
+    display: block;
+    height: 110rpx;
+    width: 110rpx;
+} 
+.tour{
+    height: 160rpx;
+    width: 160rpx;
+    position: relative;
+    left: 450rpx;
+    bottom: 95rpx;
+}
+/* 推荐内容区*/
+.recommendScroll {
+    display: flex;
+    height: 270rpx;
+    width: 720rpx;
+    margin-left: 10rpx;
+  }
+  .scrollItem {
+    width: 310rpx;
+    margin-right: 20rpx;
+  
+  }
+  
+  .scrollItem image {
+    width: 310rpx;
+    height: 200rpx;
+    border-radius: 10rpx;
+  
+  }
+  
+  .scrollItem text {
+    font-size: 26rpx;
+  }

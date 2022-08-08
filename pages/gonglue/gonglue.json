@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tour":"/Component/tour/tour"
+  },
+  "navigationBarTitleText": "攻略"
+}
